@@ -29,6 +29,7 @@ This project is a simple Python-based USSD menu simulation that mimics the behav
    git clone https://github.com/So-fire/ussd_app.git
    cd ussd_app
 2. Run the script:
+   ```bash
     python ussd_app.py
 ## Notes
 This is a console-based simulation.
