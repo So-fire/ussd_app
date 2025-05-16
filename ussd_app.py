@@ -59,7 +59,7 @@ if option1 == "3":
         if current_balance >= int(amount):
             account_number = input ("Enter Account Number: ")
             if len (account_number) == 11 and account_number.isdigit():
-                if account_number[:4] == "3055":     #it is assumed gtb acc starts wit 3055..
+                if account_number[:4] == "3055":     #it is assumed gtb acc starts wit 3055
                     #if account_number.startswith("3055"):  # GTB
                         correct_pin = input ("Enter correct pin: ")
                         if pin == int(correct_pin):
